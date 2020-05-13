@@ -1,0 +1,2913 @@
+Started GET "/" for ::1 at 2020-05-12 21:11:16 +0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.4.2/lib/rails/templates/rails/welcome/index.html.erb (5.4ms)
+Completed 200 OK in 125ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:18:08 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2136ms (Views: 2131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:18:22 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:23:08 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 221ms (Views: 217.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-05-12 21:23:15 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:24:49 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:24:50 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/abo" for ::1 at 2020-05-12 21:24:55 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/abo"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/about" for ::1 at 2020-05-12 21:24:58 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-05-12 21:25:12 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2020-05-12 21:31:29 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/new" for ::1 at 2020-05-12 21:31:49 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/posts/new" for ::1 at 2020-05-12 21:32:05 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-12 21:38:07 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/ruby/blog/app/views/posts/new.html.erb:17: syntax error, unexpected end
+...eze;@output_buffer.append=( end );
+...                            ^~~
+/home/user/ruby/blog/app/views/posts/new.html.erb:20: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/user/ruby/blog/app/views/posts/new.html.erb:22: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/posts/new.html.erb:17: syntax error, unexpected end
+app/views/posts/new.html.erb:20: syntax error, unexpected ensure, expecting ')'
+app/views/posts/new.html.erb:22: syntax error, unexpected end, expecting ')'
+Started GET "/posts/new" for ::1 at 2020-05-12 21:38:23 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (56.1ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-12 21:39:39 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-05-12 21:39:50 +0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S5r5xkSQ+/8As9xruQdlY5epyJvUltPXZML+K8rETPSnLZG6ryR/LqQbkrA50k/wfmDFhEl33XdElk/oiizE5w==", "post"=>{"title"=>"Название", "body"=>"sd"}, "commit"=>"Save Post"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (177.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (241.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+Migrating to CreatePosts (20200512174217)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "posts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20200512174217_create_posts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200512174217"]]
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (231.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-12 17:43:30.847984"], ["updated_at", "2020-05-12 17:43:30.847984"]]
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (228.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+Started GET "/posts/new" for ::1 at 2020-05-12 21:44:43 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-12 21:50:19 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-05-12 21:50:34 +0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5hLuKNMxbE0i0AyEKDDLVFaUxdBB/0BB7Ub4evz2N4YKpYZUOIXonIZ4Ql+o5eHHv13Iz9weTuHNEkm5vB6/lQ==", "post"=>{"title"=>"Статья №1", "body"=>"fffff"}, "commit"=>"Save Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:16
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Статья №1"], ["body", "fffff"], ["created_at", "2020-05-12 17:50:34.709067"], ["updated_at", "2020-05-12 17:50:34.709067"]]
+  ↳ app/controllers/posts_controller.rb:16
+  [1m[35m (325.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:16
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 336ms (ActiveRecord: 326.3ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-12 21:50:35 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-12 21:55:06 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:55:12 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Все посты</h1>
+    2: <% @post.each do |post| %>
+    3: <h3><%= post.title %></h3>
+    4: <p><%= post.body %></p>
+    5: 
+  
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__4406336117188764115_70213689514800'
+Started GET "/" for ::1 at 2020-05-12 21:55:41 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:57:45 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 21:59:52 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:00:38 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:00:58 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:04:54 +0400
+  
+SyntaxError (/home/user/ruby/blog/config/routes.rb:2: syntax error, unexpected tIDENTIFIER, expecting end
+ root 'posts#index' as: 'home'
+                    ^~):
+  
+config/routes.rb:2: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/" for ::1 at 2020-05-12 22:05:21 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-12 22:05:48 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:05:50 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:06:27 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:07:56 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about" for ::1 at 2020-05-12 22:08:02 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-12 22:08:11 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-05-12 22:08:14 +0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WMzw0OyNFmkPpRtdQnesNRIyKNDsuci+sSiS6GoySz4NgmcDvxOnPJwPq8J0FKy502LSMYHddc13TFEVoFbA/A==", "post"=>{"title"=>"dd", "body"=>"dd"}, "commit"=>"Save Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:16
+  [1m[36mPost Create (0.7ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "dd"], ["body", "dd"], ["created_at", "2020-05-12 18:08:14.447178"], ["updated_at", "2020-05-12 18:08:14.447178"]]
+  ↳ app/controllers/posts_controller.rb:16
+  [1m[35m (320.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:16
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 326ms (ActiveRecord: 321.0ms)
+
+
+Started GET "/posts/2" for ::1 at 2020-05-12 22:08:14 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:08:16 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-12 22:11:03 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-12 22:11:06 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 17:14:37 +0400
+Started GET "/" for ::1 at 2020-05-13 17:14:38 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as HTML
+Processing by PostsController#new as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendering posts/new.html.erb within layouts/application
+  [1m[36mPost Load (29.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (260.9ms)
+  Rendered posts/new.html.erb within layouts/application (931.0ms)
+Completed 200 OK in 3970ms (Views: 3827.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4263ms (Views: 4087.3ms | ActiveRecord: 30.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:14:46 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 17:14:48 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:14:49 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 17:18:57 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/posts_controller.rb:26: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/posts_controller.rb:26: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2020-05-13 17:19:01 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/posts_controller.rb:26: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/posts_controller.rb:26: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2020-05-13 17:19:19 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 41ms (Views: 20.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 17:19:22 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 17:23:19 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 23.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/posts" for ::1 at 2020-05-13 17:23:22 +0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SExh+vCqffxBCCnv+9VLQkH8pqL8OOSQNrpu97hCq+qk+wmGGx75LeWgZzR7AGHRqDWrvWHZ6jAW7t80+Koj+Q==", "post"=>{"title"=>"", "body"=>""}, "commit"=>"Save Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:17
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts" for ::1 at 2020-05-13 17:25:33 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:25:41 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:25:43 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:25:45 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:25:45 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:26:45 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:26:47 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:26:48 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:26:48 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:26:48 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:27:06 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:27:07 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:27:08 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:27:12 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.2" for ::1 at 2020-05-13 17:27:13 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:27:14 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:27:16 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:27:18 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:29:47 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:29:49 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:29:51 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:30:37 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:30:38 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-13 17:30:48 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:34:09 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:34:10 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:34:14 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:34:15 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:34:15 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:34:49 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:34:54 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:35:30 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:43:00 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-13 17:43:07 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/1/edit" for ::1 at 2020-05-13 17:43:09 +0400
+  
+AbstractController::ActionNotFound (The action 'edit' could not be found for PostsController):
+  
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.4.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/posts/1" for ::1 at 2020-05-13 17:43:10 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-13 17:45:09 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 11.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/1/edit" for ::1 at 2020-05-13 17:45:10 +0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/edit.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:47:11 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/posts_controller.rb:39: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/posts_controller.rb:39: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2020-05-13 17:47:21 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:47:23 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:47:24 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:47:25 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:47:25 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:47:28 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:49:00 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:49:32 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd3508f2f70%3E" for ::1 at 2020-05-13 17:49:34 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd350ab4700%3E" for ::1 at 2020-05-13 17:49:35 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd350cc31e0%3E" for ::1 at 2020-05-13 17:49:37 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd3541b64b0%3E" for ::1 at 2020-05-13 17:49:38 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd3541b64b0%3E" for ::1 at 2020-05-13 17:49:48 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/ruby/blog/app/views/posts/index.html.erb:8: unknown regexp options - dv
+/home/user/ruby/blog/app/views/posts/index.html.erb:8: unmatched close parenthesis: /post), :class => 'btn
+btn-outline-primary' );@output_buffer.safe_append='
+</i
+/home/user/ruby/blog/app/views/posts/index.html.erb:13: unterminated string meets end of file
+          end
+              ^
+/home/user/ruby/blog/app/views/posts/index.html.erb:13: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/posts/index.html.erb:8: unknown regexp options - dv
+app/views/posts/index.html.erb:8: unmatched close parenthesis: /post), :class => 'btn
+app/views/posts/index.html.erb:13: unterminated string meets end of file
+app/views/posts/index.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd3541b64b0%3E" for ::1 at 2020-05-13 17:49:59 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:50:00 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:50:01 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:50:14 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (158.0ms)
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `posts' for #<#<Class:0x00007fd350ce81c0>:0x00007fd350826ad8>
+Did you mean?  post
+               @post):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", posts_path(posts), :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272782776760'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272782776760'
+Started GET "/posts.1" for ::1 at 2020-05-13 17:50:32 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"posts", :format=>"1"}, missing required keys: [:id]):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", posts_path(post_path), :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272823156380'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272823156380'
+Started GET "/posts.1" for ::1 at 2020-05-13 17:51:28 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd36406a6c8%253E" for ::1 at 2020-05-13 17:51:29 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd3508d9b38%253E" for ::1 at 2020-05-13 17:51:31 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd350c56838%253E" for ::1 at 2020-05-13 17:51:31 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd354856e00%253E" for ::1 at 2020-05-13 17:51:32 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd355655a60%253E" for ::1 at 2020-05-13 17:51:33 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd3507e7e78%253E" for ::1 at 2020-05-13 17:51:33 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd360070838%253E" for ::1 at 2020-05-13 17:51:33 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd360070838%253E" for ::1 at 2020-05-13 17:51:41 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:51:42 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:52:04 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (178.2ms)
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `posts' for #<#<Class:0x00007fd350ce81c0>:0x00007fd350ab44a8>
+Did you mean?  post
+               @post):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", posts_path(posts/1), :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272784115520'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272784115520'
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd360070838%253E" for ::1 at 2020-05-13 17:53:13 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (201.9ms)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `post_params' for #<#<Class:0x00007fd350ce81c0>:0x00007fd355837f18>
+Did you mean?  post_path):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", posts_path(post_params), :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272782812160'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272782812160'
+Started GET "/posts.%2Fposts%2F%2523%253CPost::ActiveRecord_Relation:0x00007fd360070838%253E" for ::1 at 2020-05-13 17:53:21 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (103.7ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `post_params' for #<#<Class:0x00007fd350ce81c0>:0x00007fd350c6d240>
+Did you mean?  post_path):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", posts_path(post_params(1)), :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272785018600'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272785018600'
+Started GET "/posts.1" for ::1 at 2020-05-13 17:53:39 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:53:41 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 17:53:42 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 17:53:43 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:53:44 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:53:45 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-13 17:54:17 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/1/edit" for ::1 at 2020-05-13 17:54:19 +0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:10
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/edit.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/posts/1" for ::1 at 2020-05-13 17:54:36 +0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GS7OlbPTMaoWGq4vRKtm8J4ttPYW4k2s6s9wHv0JeoVjyZhD3BHZgl1rEtK27nJf0z/7wXJdiwhsvmXdAEceYg==", "post"=>{"title"=>"Статья №1", "body"=>"Первая статья"}, "commit"=>"Save Post", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "body" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["body", "Первая статья"], ["updated_at", "2020-05-13 13:54:36.642535"], ["id", 1]]
+  ↳ app/controllers/posts_controller.rb:19
+  [1m[35m (298.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:19
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 306ms (ActiveRecord: 299.3ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-13 17:54:36 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:54:52 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 17:57:50 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 22ms (Views: 17.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-13 17:57:55 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/user/ruby/blog/app/views/posts/show.html.erb:7: syntax error, unexpected ':', expecting ')'
+...удалить статью?"} :class =>
+...                               ^):
+  
+app/views/posts/show.html.erb:7: syntax error, unexpected ':', expecting ')'
+Started GET "/posts/1" for ::1 at 2020-05-13 17:58:12 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/posts/1" for ::1 at 2020-05-13 17:58:30 +0400
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hmG6pV0/sGrNe7uZmL60S62M2zQiPGjR/uOOp2SCLv5q1tLZtos0u2nT9UIYa57YREXWK7/dZnHetz9kJGqm7Q==", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:28
+  [1m[36mPost Destroy (0.2ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/posts_controller.rb:28
+  [1m[35m (197.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:28
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 202ms (ActiveRecord: 197.6ms)
+
+
+Started GET "/posts/1" for ::1 at 2020-05-13 17:58:30 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=1):
+  
+app/controllers/posts_controller.rb:14:in `show'
+Started GET "/posts/1" for ::1 at 2020-05-13 17:59:14 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+Completed 404 Not Found in 3ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=1):
+  
+app/controllers/posts_controller.rb:14:in `show'
+Started GET "/posts.1" for ::1 at 2020-05-13 17:59:18 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.2" for ::1 at 2020-05-13 17:59:21 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/2" for ::1 at 2020-05-13 17:59:28 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/posts/2" for ::1 at 2020-05-13 17:59:31 +0400
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"s3b7GsbEiI4+X6+hCRL9XK5rhnwChB+eBgp3jyTT2RJfwZNmLXAMX5r34XqJx9fPR6KLY59lET4mXsZMZDtRAQ==", "id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:28
+  [1m[36mPost Destroy (0.2ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/posts_controller.rb:28
+  [1m[35m (154.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:28
+Redirected to http://localhost:3000/
+Completed 302 Found in 159ms (ActiveRecord: 154.6ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:59:31 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 17:59:33 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-05-13 17:59:38 +0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e4nTvyik7B9Ovb5KgZkno49oJAqiGJnjlXZkv/wgrREux0RsezpdSt0XDtW3+icvTjje6898JJBTEqdCNkQm0w==", "post"=>{"title"=>"Статья №1", "body"=>"Первая статья"}, "commit"=>"Save Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:36
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Статья №1"], ["body", "Первая статья"], ["created_at", "2020-05-13 13:59:38.192087"], ["updated_at", "2020-05-13 13:59:38.192087"]]
+  ↳ app/controllers/posts_controller.rb:36
+  [1m[35m (298.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:36
+Redirected to http://localhost:3000/posts/3
+Completed 302 Found in 304ms (ActiveRecord: 298.9ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 17:59:38 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 17:59:43 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+Migrating to CreateComments (20200513140228)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20200513140228_create_comments.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "comments" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "body" text, "post_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_2fd19c0db7"
+FOREIGN KEY ("post_id")
+  REFERENCES "posts" ("id")
+)[0m
+  ↳ db/migrate/20200513140228_create_comments.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_comments_on_post_id" ON "comments" ("post_id")[0m
+  ↳ db/migrate/20200513140228_create_comments.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200513140228"]]
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (231.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/bin/rake:23
+Started GET "/posts.3" for ::1 at 2020-05-13 18:10:22 +0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 559ms (Views: 456.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:10:28 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (328.3ms)
+Completed 200 OK in 347ms (Views: 343.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:16:13 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:17:52 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts/3/comments" for ::1 at 2020-05-13 18:18:26 +0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uH+7zX9Y5pi0A420ajUiw60KYXA+vM8lyJdJYbmq+ZlUyNOxlOxiSRCrw2/q4AhQRMNsb6NdwYXow/ii+UJxig==", "comment"=>{"username"=>"Роман", "body"=>"Проверка комментариев"}, "commit"=>"Добавить комментарий", "post_id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:3
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:4
+  [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("username", "body", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Роман"], ["body", "Проверка комментариев"], ["post_id", 3], ["created_at", "2020-05-13 14:18:26.784459"], ["updated_at", "2020-05-13 14:18:26.784459"]]
+  ↳ app/controllers/comments_controller.rb:4
+  [1m[35m (421.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:4
+Redirected to http://localhost:3000/posts/3
+Completed 302 Found in 427ms (ActiveRecord: 421.8ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:18:27 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:14
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:22:19 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 29ms (Views: 21.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 18:22:22 +0400
+Processing by PostsController#new as HTML
+Filter chain halted as #<Proc:0x00007fd3557ee408@/home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionpack-5.2.4.2/lib/action_controller/metal/http_authentication.rb:72> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 18:22:34 +0400
+Processing by PostsController#new as HTML
+Filter chain halted as #<Proc:0x00007fd3557ee408@/home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionpack-5.2.4.2/lib/action_controller/metal/http_authentication.rb:72> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:22:38 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:24:33 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:24:34 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:24:35 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.1" for ::1 at 2020-05-13 18:26:33 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/ruby/blog/app/views/posts/index.html.erb:5: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/posts/index.html.erb:5: syntax error, unexpected ensure, expecting end-of-input
+Started GET "/posts.1" for ::1 at 2020-05-13 18:38:37 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/ruby/blog/app/views/posts/index.html.erb:5: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/posts/index.html.erb:5: syntax error, unexpected ensure, expecting end-of-input
+Started GET "/posts.3" for ::1 at 2020-05-13 18:38:38 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/ruby/blog/app/views/posts/index.html.erb:5: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/posts/index.html.erb:5: syntax error, unexpected ensure, expecting end-of-input
+Started GET "/posts.3" for ::1 at 2020-05-13 18:38:44 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:38:45 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:38:46 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:41:39 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts" for ::1 at 2020-05-13 18:41:41 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts" for ::1 at 2020-05-13 18:41:41 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts" for ::1 at 2020-05-13 18:41:42 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts" for ::1 at 2020-05-13 18:41:47 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"posts"}, missing required keys: [:id]):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", post_path, :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272847115820'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272847115820'
+Started GET "/posts" for ::1 at 2020-05-13 18:42:41 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:42:42 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:43:00 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:43:02 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:43:02 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 30ms (Views: 16.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:43:03 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:43:03 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:43:18 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", posts_path(@post[:id]), :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272946319280'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272946319280'
+Started GET "/posts.3" for ::1 at 2020-05-13 18:43:27 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd35070ddb8%3E" for ::1 at 2020-05-13 18:43:28 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd35070ddb8%3E" for ::1 at 2020-05-13 18:44:34 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (158.2ms)
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `post_id' for #<#<Class:0x00007fd350a854c8>:0x00007fd3640e7420>
+Did you mean?  post):
+    3: <div class="alert alert-light">
+    4: <h3><%= post.title %></h3>
+    5: <p><%= post.body %></p>
+    6: <%= link_to "Читать далее", posts_path(post_id), :class => 'btn
+    7: btn-outline-primary' %>
+    8: </div>
+    9: <% end %>
+  
+app/views/posts/index.html.erb:6:in `block in _app_views_posts_index_html_erb__956391033158533700_70272946749120'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__956391033158533700_70272946749120'
+Started GET "/posts.%23%3CPost::ActiveRecord_Relation:0x00007fd35070ddb8%3E" for ::1 at 2020-05-13 18:44:45 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:44:46 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:26 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:28 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:29 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:29 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:29 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:30 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:30 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:30 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:48:31 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 18:50:20 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:50:23 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 18:50:24 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:50:24 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:50:26 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:50:42 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 18:50:50 +0400
+Processing by PostsController#new as HTML
+Filter chain halted as #<Proc:0x00007fd350a567e0@/home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionpack-5.2.4.2/lib/action_controller/metal/http_authentication.rb:72> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 18:50:52 +0400
+Processing by PostsController#new as HTML
+Filter chain halted as #<Proc:0x00007fd350a567e0@/home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionpack-5.2.4.2/lib/action_controller/metal/http_authentication.rb:72> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:50:54 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:51:00 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:51:01 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:51:02 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:51:02 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:51:29 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:52:07 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?class=btn%0Abtn-outline-primary" for ::1 at 2020-05-13 18:52:11 +0400
+Processing by PostsController#index as HTML
+  Parameters: {"class"=>"btn\nbtn-outline-primary"}
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?class=btn%0Abtn-outline-primary" for ::1 at 2020-05-13 18:52:12 +0400
+Processing by PostsController#index as HTML
+  Parameters: {"class"=>"btn\nbtn-outline-primary"}
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?class=btn%0Abtn-outline-primary" for ::1 at 2020-05-13 18:52:13 +0400
+Processing by PostsController#index as HTML
+  Parameters: {"class"=>"btn\nbtn-outline-primary"}
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?class=btn%0Abtn-outline-primary" for ::1 at 2020-05-13 18:52:13 +0400
+Processing by PostsController#index as HTML
+  Parameters: {"class"=>"btn\nbtn-outline-primary"}
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?class=btn%0Abtn-outline-primary" for ::1 at 2020-05-13 18:52:18 +0400
+Processing by PostsController#index as HTML
+  Parameters: {"class"=>"btn\nbtn-outline-primary"}
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?class=btn%0Abtn-outline-primary" for ::1 at 2020-05-13 18:52:18 +0400
+Processing by PostsController#index as HTML
+  Parameters: {"class"=>"btn\nbtn-outline-primary"}
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:52:50 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:52:51 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts.3" for ::1 at 2020-05-13 18:52:57 +0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:52:59 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 18:53:12 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:53:13 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 18:53:14 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:53:15 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 18:53:17 +0400
+Processing by PostsController#new as HTML
+Filter chain halted as #<Proc:0x00007fd350a567e0@/home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionpack-5.2.4.2/lib/action_controller/metal/http_authentication.rb:72> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-05-13 18:53:24 +0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-05-13 18:54:17 +0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gtf1KghE9qqJEu1pTw8ZLGUMNHWpMAb0TeHBDFdVtjXXmWL5W9pH/xq4XfZ5bBmgpFzOlMRUu4eLhQLxnTE99w==", "post"=>{"title"=>"Ruby on Rails", "body"=>"Ruby on Rails (RoR) — фреймворк, написанный на языке программирования Ruby, реализует архитектурный шаблон Model-View-Controller для веб-приложений, а также обеспечивает их интеграцию с веб-сервером и сервером баз данных. Является открытым программным обеспечением и распространяется под лицензией MIT.  Создан Давидом Хейнемейером Ханссоном на основе его работы в компании 37signals над средством управления проектами Basecamp и выпущен в июле 2004 года. 23 декабря 2008 года команда проекта Merb объединилась с командой Rails с целью создания следующей версии Rails 3, которая объединит в себе лучшие черты обоих фреймворков.  Базируется на следующих принципах разработки приложений:  максимальное использование механизмов повторного использования, позволяющих минимизировать дублирование кода в приложениях (принцип Don’t repeat yourself); по умолчанию используются соглашения по конфигурации, типичные для большинства приложений (принцип Convention over configuration) — явная спецификация конфигурации требуется только в нестандартных случаях."}, "commit"=>"Save Post"}
+Filter chain halted as #<Proc:0x00007fd350a567e0@/home/user/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionpack-5.2.4.2/lib/action_controller/metal/http_authentication.rb:72> rendered or redirected
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-05-13 18:54:17 +0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gtf1KghE9qqJEu1pTw8ZLGUMNHWpMAb0TeHBDFdVtjXXmWL5W9pH/xq4XfZ5bBmgpFzOlMRUu4eLhQLxnTE99w==", "post"=>{"title"=>"Ruby on Rails", "body"=>"Ruby on Rails (RoR) — фреймворк, написанный на языке программирования Ruby, реализует архитектурный шаблон Model-View-Controller для веб-приложений, а также обеспечивает их интеграцию с веб-сервером и сервером баз данных. Является открытым программным обеспечением и распространяется под лицензией MIT.  Создан Давидом Хейнемейером Ханссоном на основе его работы в компании 37signals над средством управления проектами Basecamp и выпущен в июле 2004 года. 23 декабря 2008 года команда проекта Merb объединилась с командой Rails с целью создания следующей версии Rails 3, которая объединит в себе лучшие черты обоих фреймворков.  Базируется на следующих принципах разработки приложений:  максимальное использование механизмов повторного использования, позволяющих минимизировать дублирование кода в приложениях (принцип Don’t repeat yourself); по умолчанию используются соглашения по конфигурации, типичные для большинства приложений (принцип Convention over configuration) — явная спецификация конфигурации требуется только в нестандартных случаях."}, "commit"=>"Save Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:39
+  [1m[36mPost Create (0.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Ruby on Rails"], ["body", "Ruby on Rails (RoR) — фреймворк, написанный на языке программирования Ruby, реализует архитектурный шаблон Model-View-Controller для веб-приложений, а также обеспечивает их интеграцию с веб-сервером и сервером баз данных. Является открытым программным обеспечением и распространяется под лицензией MIT.  Создан Давидом Хейнемейером Ханссоном на основе его работы в компании 37signals над средством управления проектами Basecamp и выпущен в июле 2004 года. 23 декабря 2008 года команда проекта Merb объединилась с командой Rails с целью создания следующей версии Rails 3, которая объединит в себе лучшие черты обоих фреймворков.  Базируется на следующих принципах разработки приложений:  максимальное использование механизмов повторного использования, позволяющих минимизировать дублирование кода в приложениях (принцип Don’t repeat yourself); по умолчанию используются соглашения по конфигурации, типичные для большинства приложений (принцип Convention over configuration) — явная спецификация конфигурации требуется только в нестандартных случаях."], ["created_at", "2020-05-13 14:54:17.349161"], ["updated_at", "2020-05-13 14:54:17.349161"]]
+  ↳ app/controllers/posts_controller.rb:39
+  [1m[35m (259.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:39
+Redirected to http://localhost:3000/posts/4
+Completed 302 Found in 263ms (ActiveRecord: 259.7ms)
+
+
+Started GET "/posts/4" for ::1 at 2020-05-13 18:54:17 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:54:31 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/4" for ::1 at 2020-05-13 18:54:42 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/4" for ::1 at 2020-05-13 18:54:59 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 18:55:00 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:55:04 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/3/edit" for ::1 at 2020-05-13 18:55:05 +0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:13
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/posts/3" for ::1 at 2020-05-13 18:56:01 +0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XvWulogdPWGn+W/btz1hiJDnrx+5qtW8F3gy19cfQ8O0KsdBXCCAJJTzCrPecs3+3/FWOABC8WlerRUzc4B8GA==", "post"=>{"title"=>"История СГУ", "body"=>"Императорский Николаевский университет был основан 10 июня 1909 года, благодаря настойчивости саратовской общественности, администрации и премьер-министра П. А. Столыпина. Университет был открыт как Николаевский университет. Торжественное открытие состоялось 6 декабря с согласия императора Николая II дать университету своё имя. В тот же день после молебна и крестного хода был заложен камень на месте строительства будущих корпусов университета. Для их возведения в качестве архитектора будет привлечён Карл Людвигович Мюфке. За несколько лет ему удастся создать целостный ансамбль с высоким качеством исполнения.  Первым ректором Николаевского Саратовского университета стал Василий Иванович Разумовский. Первоначально в составе университета был только один факультет – медицинский. В 1917 году были созданы физико-математический, историко-филологический и юридический факультеты. Деканом историко-филологического факультета стал Семён Людвигович Франк. В университете работал П. К. Галлер. В первые послереволюционные годы на агрономическом факультете работал Н. И. Вавилов.  В 1922 году агрономический факультет был преобразован в самостоятельный Сельскохозяйственный институт.  В октябре 1923 года университет был переименован в Саратовский государственный университет им. Н. Г. Чернышевского.  В 1930 году медицинский факультет был преобразован в институт. В 1931 году на базе факультета советского строительства и права был создан институт советского права, который стал основоположником для Саратовской государственной академии права. В этом же году педагогический факультет стал институтом."}, "commit"=>"Save Post", "id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:22
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "title" = ?, "body" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["title", "История СГУ"], ["body", "Императорский Николаевский университет был основан 10 июня 1909 года, благодаря настойчивости саратовской общественности, администрации и премьер-министра П. А. Столыпина. Университет был открыт как Николаевский университет. Торжественное открытие состоялось 6 декабря с согласия императора Николая II дать университету своё имя. В тот же день после молебна и крестного хода был заложен камень на месте строительства будущих корпусов университета. Для их возведения в качестве архитектора будет привлечён Карл Людвигович Мюфке. За несколько лет ему удастся создать целостный ансамбль с высоким качеством исполнения.  Первым ректором Николаевского Саратовского университета стал Василий Иванович Разумовский. Первоначально в составе университета был только один факультет – медицинский. В 1917 году были созданы физико-математический, историко-филологический и юридический факультеты. Деканом историко-филологического факультета стал Семён Людвигович Франк. В университете работал П. К. Галлер. В первые послереволюционные годы на агрономическом факультете работал Н. И. Вавилов.  В 1922 году агрономический факультет был преобразован в самостоятельный Сельскохозяйственный институт.  В октябре 1923 года университет был переименован в Саратовский государственный университет им. Н. Г. Чернышевского.  В 1930 году медицинский факультет был преобразован в институт. В 1931 году на базе факультета советского строительства и права был создан институт советского права, который стал основоположником для Саратовской государственной академии права. В этом же году педагогический факультет стал институтом."], ["updated_at", "2020-05-13 14:56:01.525253"], ["id", 3]]
+  ↳ app/controllers/posts_controller.rb:22
+  [1m[35m (318.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:22
+Redirected to http://localhost:3000/posts/3
+Completed 302 Found in 324ms (ActiveRecord: 319.3ms)
+
+
+Started GET "/posts/3" for ::1 at 2020-05-13 18:56:01 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/3/comments" for ::1 at 2020-05-13 18:56:14 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>
+Started POST "/posts/3/comments" for ::1 at 2020-05-13 18:56:48 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>
+Started POST "/posts/3/comments" for ::1 at 2020-05-13 18:56:59 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>
+Started POST "/posts/3/comments" for ::1 at 2020-05-13 18:57:44 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>
+Started POST "/posts/3/comments" for ::1 at 2020-05-13 18:58:01 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:14: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:14: syntax error, unexpected '\n', expecting =>
+Started POST "/posts/3/comments" for ::1 at 2020-05-13 18:58:18 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>
+Started GET "/" for ::1 at 2020-05-13 18:58:24 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 24ms (Views: 19.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts/4" for ::1 at 2020-05-13 18:58:26 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/posts/4/comments" for ::1 at 2020-05-13 18:58:28 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>
+Started POST "/posts/4/comments" for ::1 at 2020-05-13 18:58:35 +0400
+  
+SyntaxError (/home/user/ruby/blog/app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/comments_controller.rb:8: syntax error, unexpected '\n', expecting =>
+Started POST "/posts/4/comments" for ::1 at 2020-05-13 18:59:20 +0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PTBDhWf4aaUWVbuLbiiHR13mXAUzBCypYqP1YjFFhx3Rhyv5jEztdLL99VDu/a3UtC9RGq7lIglC90Shca0PDg==", "comment"=>{"username"=>"", "body"=>""}, "commit"=>"Добавить комментарий", "post_id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:5
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:6
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("username", "body", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", ""], ["body", ""], ["post_id", 4], ["created_at", "2020-05-13 14:59:20.186601"], ["updated_at", "2020-05-13 14:59:20.186601"]]
+  ↳ app/controllers/comments_controller.rb:6
+  [1m[35m (261.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:6
+Redirected to http://localhost:3000/posts/4
+Completed 302 Found in 293ms (ActiveRecord: 262.7ms)
+
+
+Started GET "/posts/4" for ::1 at 2020-05-13 18:59:20 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts/4/comments" for ::1 at 2020-05-13 18:59:28 +0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/v3+Pxt9HfQ583QU8jQgUhioJ/LG4WYCGo4vYaTG1h3TJ+EF9lwpnRPgwvTHfoSoautgFb6izgoPol+xnuTSw==", "comment"=>{"username"=>"Роман", "body"=>"Интересно."}, "commit"=>"Добавить комментарий", "post_id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:5
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:6
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("username", "body", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Роман"], ["body", "Интересно."], ["post_id", 4], ["created_at", "2020-05-13 14:59:28.034425"], ["updated_at", "2020-05-13 14:59:28.034425"]]
+  ↳ app/controllers/comments_controller.rb:6
+  [1m[35m (281.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:6
+Redirected to http://localhost:3000/posts/4
+Completed 302 Found in 287ms (ActiveRecord: 281.6ms)
+
+
+Started GET "/posts/4" for ::1 at 2020-05-13 18:59:28 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/4" for ::1 at 2020-05-13 19:00:47 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/4.5/assets/brand/bootstrap-solid.svg" for ::1 at 2020-05-13 19:00:47 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.5/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/posts/4" for ::1 at 2020-05-13 19:02:42 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/4.5/assets/brand/bootstrap-solid.svg" for ::1 at 2020-05-13 19:02:42 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.5/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/posts/4" for ::1 at 2020-05-13 19:03:37 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/4.5/assets/brand/bootstrap-solid.svg" for ::1 at 2020-05-13 19:03:38 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.5/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-13 19:06:02 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/4.5/assets/brand/bootstrap-solid.svg" for ::1 at 2020-05-13 19:06:02 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.5/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/posts/3" for ::1 at 2020-05-13 19:06:05 +0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:17
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  ↳ app/views/posts/show.html.erb:11
+  Rendered posts/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/4.5/assets/brand/bootstrap-solid.svg" for ::1 at 2020-05-13 19:06:06 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.5/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs/4.5/assets/brand/bootstrap-solid.svg" for ::1 at 2020-05-13 19:06:09 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.5/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/about" for ::1 at 2020-05-13 19:06:14 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs/4.5/assets/brand/bootstrap-solid.svg" for ::1 at 2020-05-13 19:06:14 +0400
+  
+ActionController::RoutingError (No route matches [GET] "/docs/4.5/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/about" for ::1 at 2020-05-13 19:07:25 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 19:07:41 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 19:09:13 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 19:10:48 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2020-05-13 19:11:15 +0400
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-13 19:11:17 +0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:2
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.1ms)
+
+

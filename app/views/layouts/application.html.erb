@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <h5 class="my-0 mr-md-auto font-weight-bold">Сайт для курсовой</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <span class="p-2 text-dark" ><%= link_to "Главная страница",
+        home_path %></span>
+        <span class="p-2 text-dark" ><%= link_to "Про меня",
+        about_path %></span>
+      </nav>
+      <span class="btn btn-outline-primary" ><%= link_to "Добавление статьи",
+      new_post_path %></span>
+    </div>
+
+    <div class="container">
+    <%= yield %>
+    </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2020 СГУ</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+  </body>
+</html>
